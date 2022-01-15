@@ -17,10 +17,6 @@
 			"text": "Its a TV"
 		},
 		{
-			"event_id": "dialogic_023",
-			"wait_seconds": 0.2
-		},
-		{
 			"event_id": "dialogic_013"
 		},
 		{
@@ -34,10 +30,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Its still a TV"
-		},
-		{
-			"event_id": "dialogic_023",
-			"wait_seconds": 0.5
 		},
 		{
 			"event_id": "dialogic_013"
@@ -55,10 +47,6 @@
 			"text": "Its still only a TV"
 		},
 		{
-			"event_id": "dialogic_023",
-			"wait_seconds": 1
-		},
-		{
 			"event_id": "dialogic_013"
 		},
 		{
@@ -72,10 +60,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "You know what it is."
-		},
-		{
-			"event_id": "dialogic_023",
-			"wait_seconds": 1
 		},
 		{
 			"event_id": "dialogic_013"
