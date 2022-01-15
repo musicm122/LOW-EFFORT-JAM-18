@@ -1,0 +1,46 @@
+{
+	"events": [
+		{
+			"action": "leaveall",
+			"character": "[All]",
+			"event_id": "dialogic_003"
+		},
+		{
+			"action": "join",
+			"character": "character-1640989017.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"emit_signal": "start_dialog",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1640989017.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You found a flashlight. Press \"F\" or the Flashlight button to toggle."
+		},
+		{
+			"emit_signal": "Flashlight",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "end_dialog",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1641175943.json",
+		"name": "FlashlightFound"
+	}
+}
