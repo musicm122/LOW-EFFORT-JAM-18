@@ -1,4 +1,4 @@
-[gd_scene load_steps=51 format=2]
+[gd_scene load_steps=53 format=2]
 
 [ext_resource path="res://Entities/LevelParts/Tilemap.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Entities/Player.tscn" type="PackedScene" id=2]
@@ -8,7 +8,9 @@
 [ext_resource path="res://Assets/Art/NES Mansion Tile Set.png" type="Texture" id=6]
 [ext_resource path="res://Entities/HUD.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Entities/Item.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Entities/NPC_1.tscn" type="PackedScene" id=9]
 [ext_resource path="res://icon.png" type="Texture" id=10]
+[ext_resource path="res://Entities/NPC_2.tscn" type="PackedScene" id=11]
 
 [sub_resource type="NavigationPolygon" id=13]
 vertices = PoolVector2Array( 16, 40, 0, 40, 0, 0, 16, 0 )
@@ -2511,13 +2513,21 @@ resource_local_to_scene = true
 
 [node name="NPCS" type="Node" parent="Node2D"]
 
-[node name="Npc1" parent="Node2D/NPCS" instance=ExtResource( 3 )]
-position = Vector2( -67, 51 )
+[node name="Npc_proto" parent="Node2D/NPCS" instance=ExtResource( 3 )]
+position = Vector2( -194, 51 )
 timeline = "/NPC1/Init"
 
-[node name="Sprite" type="Sprite" parent="Node2D/NPCS/Npc1"]
+[node name="Sprite" type="Sprite" parent="Node2D/NPCS/Npc_proto"]
 scale = Vector2( 0.109375, 0.09375 )
 texture = ExtResource( 10 )
+
+[node name="Npc1" parent="Node2D/NPCS" instance=ExtResource( 9 )]
+position = Vector2( -60, 67 )
+timeline = "/NPC1/Init"
+
+[node name="Npc2" parent="Node2D/NPCS" instance=ExtResource( 11 )]
+position = Vector2( -60, 97 )
+timeline = "/NPC2/Init"
 
 [node name="Examinable_Items" type="Node" parent="Node2D"]
 
@@ -2553,8 +2563,12 @@ z_index = 1
 
 [node name="HUD" parent="Node2D/Player" instance=ExtResource( 7 )]
 
+[connection signal="player_interacting" from="Node2D/NPCS/Npc_proto" to="Node2D/Player" method="OnExaminablePlayerInteracting"]
+[connection signal="player_interacting_complete" from="Node2D/NPCS/Npc_proto" to="Node2D/Player" method="OnExaminablePlayerInteractingComplete"]
 [connection signal="player_interacting" from="Node2D/NPCS/Npc1" to="Node2D/Player" method="OnExaminablePlayerInteracting"]
 [connection signal="player_interacting_complete" from="Node2D/NPCS/Npc1" to="Node2D/Player" method="OnExaminablePlayerInteractingComplete"]
+[connection signal="player_interacting" from="Node2D/NPCS/Npc2" to="Node2D/Player" method="OnExaminablePlayerInteracting"]
+[connection signal="player_interacting_complete" from="Node2D/NPCS/Npc2" to="Node2D/Player" method="OnExaminablePlayerInteractingComplete"]
 [connection signal="player_interacting" from="Node2D/Examinable_Items/TV" to="Node2D/Player" method="OnExaminablePlayerInteracting"]
 [connection signal="player_interacting_complete" from="Node2D/Examinable_Items/TV" to="Node2D/Player" method="OnExaminablePlayerInteractingComplete"]
 [connection signal="player_interacting" from="Node2D/Examinable_Items/Item_Pizza" to="Node2D/Player" method="OnExaminablePlayerInteracting"]

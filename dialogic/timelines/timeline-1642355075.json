@@ -30,13 +30,13 @@
 			"event_id": "dialogic_040"
 		},
 		{
-			"event_id": "dialogic_022",
-			"transition_duration": 1
+			"background": "res://Assets/Art/Prisoner.png",
+			"event_id": "dialogic_021"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.3",
-		"file": "timeline-1642273650.json",
+		"file": "timeline-1642355075.json",
 		"name": "foo"
 	}
 }

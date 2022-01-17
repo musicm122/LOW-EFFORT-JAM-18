@@ -26,6 +26,30 @@
 			"name": "NPC1_Has_Pizza",
 			"type": 0,
 			"value": "0"
+		},
+		{
+			"id": "1642355551-366",
+			"name": "NPC2_Has_Pizza",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1642355533-787",
+			"name": "NPC2_Init_Complete",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1642355567-146",
+			"name": "NPC3_Has_Pizza",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1642355581-918",
+			"name": "NPC3_Init_Complete",
+			"type": 0,
+			"value": "0"
 		}
 	]
 }

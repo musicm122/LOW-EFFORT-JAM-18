@@ -28,15 +28,11 @@
 		{
 			"emit_signal": "end_dialog",
 			"event_id": "dialogic_040"
-		},
-		{
-			"event_id": "dialogic_022",
-			"transition_duration": 1
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.3",
-		"file": "timeline-1642273650.json",
+		"file": "timeline-1642354720.json",
 		"name": "foo"
 	}
 }
