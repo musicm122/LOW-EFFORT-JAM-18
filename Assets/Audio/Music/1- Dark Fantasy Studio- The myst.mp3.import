@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/1- Dark Fantasy Studio- The myst.mp3-af67c626464c982088fb9f2f8065c7b5.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Music/1- Dark Fantasy Studio- The myst.mp3"
+dest_files=[ "res://.import/1- Dark Fantasy Studio- The myst.mp3-af67c626464c982088fb9f2f8065c7b5.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

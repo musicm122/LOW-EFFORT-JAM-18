@@ -36,14 +36,13 @@
 			"condition": "",
 			"definition": "1642355533-787",
 			"event_id": "dialogic_012",
-			"value": "1"
+			"value": "0"
 		},
 		{
-			"change_timeline": "timeline-1642356775.json",
-			"event_id": "dialogic_020"
-		},
-		{
-			"event_id": "dialogic_013"
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "HEY!!!"
 		},
 		{
 			"character": "character-1642272386.json",
@@ -55,20 +54,52 @@
 			"character": "character-1642272386.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Thanks again for helping to put together this little soiree. I am deeply in your dept. I'd have done it all myself but, you know those owls."
+			"text": "Thanks again for helping to put together this little soiree. ."
+		},
+		{
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I am deeply in your dept. I'd have done it all myself ...."
+		},
+		{
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "but, you know "
+		},
+		{
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "the owls"
+		},
+		{
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ha ha."
 		},
 		{
 			"event_id": "dialogic_023",
-			"wait_seconds": 2
+			"wait_seconds": 0.5
 		},
 		{
-			"character": "",
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/Audio/SoundEffects/Blood_Drip_01.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1642272386.json",
 			"event_id": "dialogic_010",
 			"options": [
 
 			],
 			"portrait": "",
-			"question": "Those damnable owls. "
+			"question": "....ha ha ha."
 		},
 		{
 			"choice": "Owls?",
@@ -78,13 +109,13 @@
 			"value": ""
 		},
 		{
-			"character": "",
+			"character": "character-1642272386.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Oh, you know.\t"
 		},
 		{
-			"character": "",
+			"character": "character-1642272386.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "The OWLS!"
@@ -116,6 +147,9 @@
 			"event_id": "dialogic_013"
 		},
 		{
+			"event_id": "dialogic_013"
+		},
+		{
 			"condition": "",
 			"definition": "1642273213-364",
 			"event_id": "dialogic_012",
@@ -138,8 +172,72 @@
 			"value": ""
 		},
 		{
-			"emit_signal": "PizzaGiven",
-			"event_id": "dialogic_040"
+			"audio_bus": "Master",
+			"background-music": "stop",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Truly, you are too kind. "
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 0.1,
+			"file": "res://Assets/Audio/Music/1- Dark Fantasy Studio- The myst.mp3",
+			"volume": 0
+		},
+		{
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh"
+		},
+		{
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Whats that...."
+		},
+		{
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Urrrrrggggggggggggggghhhhhhhhhhhhhhhhh"
+		},
+		{
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Stop Scratching!!!"
+		},
+		{
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Stop it!! \nStop it!!\nStop it!!"
+		},
+		{
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "STAAAAAAAAAAAAA!!! "
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/Audio/SoundEffects/Scream_Male_00.wav",
+			"volume": 0
 		},
 		{
 			"definition": "1642273213-364",
@@ -150,12 +248,24 @@
 			"set_value": "0"
 		},
 		{
-			"definition": "1642274903-440",
+			"definition": "1642355551-366",
 			"event_id": "dialogic_014",
 			"operation": "=",
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "1"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/Audio/SoundEffects/Monster_04.wav",
+			"volume": 0
+		},
+		{
+			"change_scene": "res://Entities/SamEnding.tscn",
+			"event_id": "dialogic_041"
 		},
 		{
 			"choice": "Nope",
@@ -177,17 +287,16 @@
 			"text": "Did you know in the 6th century Pizza was topped with Dates by Persian soldiers?"
 		},
 		{
+			"definition": "1642355533-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
 			"emit_signal": "end_dialog",
 			"event_id": "dialogic_040"
-		},
-		{
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_012",
-			"value": ""
-		},
-		{
-			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {

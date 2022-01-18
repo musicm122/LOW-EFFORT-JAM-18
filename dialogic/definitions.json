@@ -4,32 +4,8 @@
 	],
 	"variables": [
 		{
-			"id": "1642273213-364",
-			"name": "PlayerHasPizza",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1642214098-648",
-			"name": "TV_ExamineCount",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1642274009-267",
 			"name": "NPC1_Init_Complete",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1642274903-440",
-			"name": "NPC1_Has_Pizza",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1642355551-366",
-			"name": "NPC2_Has_Pizza",
 			"type": 0,
 			"value": "0"
 		},
@@ -48,6 +24,48 @@
 		{
 			"id": "1642355581-918",
 			"name": "NPC3_Init_Complete",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1642355551-366",
+			"name": "NPC2_Has_Pizza",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1642274903-440",
+			"name": "NPC1_Has_Pizza",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1642273213-364",
+			"name": "PlayerHasPizza",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1642214098-648",
+			"name": "TV_ExamineCount",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1642465083-635",
+			"name": "Door_check",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1642466574-821",
+			"name": "Drawer_check",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1642467139-485",
+			"name": "Creepy_hand_found",
 			"type": 0,
 			"value": "0"
 		}

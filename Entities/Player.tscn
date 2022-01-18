@@ -8,21 +8,6 @@
 radius = 3.90147
 height = 0.0
 
-[sub_resource type="AtlasTexture" id=22]
-flags = 4
-atlas = ExtResource( 3 )
-region = Rect2( 24, 32, 24, 32 )
-
-[sub_resource type="AtlasTexture" id=21]
-flags = 4
-atlas = ExtResource( 3 )
-region = Rect2( 0, 32, 24, 32 )
-
-[sub_resource type="AtlasTexture" id=23]
-flags = 4
-atlas = ExtResource( 3 )
-region = Rect2( 48, 32, 24, 32 )
-
 [sub_resource type="AtlasTexture" id=25]
 flags = 4
 atlas = ExtResource( 3 )
@@ -37,6 +22,21 @@ region = Rect2( 0, 64, 24, 32 )
 flags = 4
 atlas = ExtResource( 3 )
 region = Rect2( 48, 64, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=22]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 24, 32, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=21]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 0, 32, 24, 32 )
+
+[sub_resource type="AtlasTexture" id=23]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 48, 32, 24, 32 )
 
 [sub_resource type="AtlasTexture" id=16]
 flags = 4
@@ -70,14 +70,14 @@ region = Rect2( 48, 0, 24, 32 )
 
 [sub_resource type="SpriteFrames" id=14]
 animations = [ {
-"frames": [ SubResource( 22 ), SubResource( 21 ), SubResource( 22 ), SubResource( 23 ) ],
-"loop": true,
-"name": "left",
-"speed": 5.0
-}, {
 "frames": [ SubResource( 25 ), SubResource( 24 ), SubResource( 25 ), SubResource( 26 ) ],
 "loop": true,
 "name": "right",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 22 ), SubResource( 21 ), SubResource( 22 ), SubResource( 23 ) ],
+"loop": true,
+"name": "left",
 "speed": 5.0
 }, {
 "frames": [ SubResource( 16 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ) ],
@@ -102,7 +102,6 @@ shape = SubResource( 1 )
 scale = Vector2( 0.5, 0.5 )
 frames = SubResource( 14 )
 animation = "right"
-frame = 2
 playing = true
 
 [node name="Polygon2D" type="Polygon2D" parent="CollisionShape2D"]

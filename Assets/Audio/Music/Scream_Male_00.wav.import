@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Scream_Male_00.wav-3f644a4a694934ad6915c6b44d68311b.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/Music/Scream_Male_00.wav"
+dest_files=[ "res://.import/Scream_Male_00.wav-3f644a4a694934ad6915c6b44d68311b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

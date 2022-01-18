@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/barn_owl_01.ogg-2bc5356ce715d07feea2f919b9a6eba4.oggstr"
+
+[deps]
+
+source_file="res://Assets/Audio/SoundEffects/barn_owl_01.ogg"
+dest_files=[ "res://.import/barn_owl_01.ogg-2bc5356ce715d07feea2f919b9a6eba4.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

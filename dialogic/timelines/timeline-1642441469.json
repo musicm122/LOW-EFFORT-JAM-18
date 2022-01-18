@@ -1,0 +1,98 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1642272381.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Assets/Audio/SoundEffects/Ambience_Hell_01.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1642272381.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "HAHAHAHA!!!"
+		},
+		{
+			"character": "character-1642272381.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thanks for the Pizza."
+		},
+		{
+			"character": "character-1642272381.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " I didn't realize that it was just what I needed."
+		},
+		{
+			"character": "character-1642272381.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I was so scared and tired before."
+		},
+		{
+			"character": "character-1642272381.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now, there is no need to fear. "
+		},
+		{
+			"character": "character-1642272381.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Never again will I feel shame and fear for anything. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "NEVER AGAIN!"
+		},
+		{
+			"character": "character-1642272381.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I will forfill my desire to  penetrate with my axe without fear or regret."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/Audio/SoundEffects/Monster_04.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1642272381.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I WILL MURDER EVERYONE AND FEEL EXQUSITE!"
+		},
+		{
+			"change_scene": "res://Scenes/End.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1642441469.json",
+		"name": "Danni_Ending"
+	}
+}

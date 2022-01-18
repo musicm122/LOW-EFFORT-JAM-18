@@ -11,7 +11,7 @@
 			"value": "0"
 		},
 		{
-			"character": "",
+			"character": "character-1640989017.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Its a TV"
@@ -26,7 +26,7 @@
 			"value": "1"
 		},
 		{
-			"character": "",
+			"character": "character-1640989017.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Its still a TV"
@@ -41,7 +41,7 @@
 			"value": "2"
 		},
 		{
-			"character": "",
+			"character": "character-1640989017.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Its still only a TV"
@@ -56,10 +56,51 @@
 			"value": "2"
 		},
 		{
-			"character": "",
+			"character": "character-1640989017.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "You know what it is."
+		},
+		{
+			"condition": "",
+			"definition": "1642273213-364",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1640989017.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Give Pizza?"
+		},
+		{
+			"choice": "Sure?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1640989017.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The TV explains that it unforntunately  is lactose intolerant and cannot partake but, does appreciate the thought. "
+		},
+		{
+			"choice": "Nope",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
 		},
 		{
 			"event_id": "dialogic_013"

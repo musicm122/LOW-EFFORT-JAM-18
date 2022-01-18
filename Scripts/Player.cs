@@ -29,7 +29,9 @@ public class Player : KinematicBody2D
     }
     public void RemoveItem(string name)
     {
+        GD.Print($@"Attempting to remove {name}");
         Inventory.RemoveItemIfExists(name);
+        GD.Print($@"Removed {name}");
     }
 
     private void LockMovement()
@@ -96,7 +98,7 @@ public class Player : KinematicBody2D
     {
     }
 
-    public override async void _Ready()
+    public override void _Ready()
     {
         GD.Print("Player Ready called");
         animatedSprite = GetNode<AnimatedSprite>("CollisionShape2D/AnimatedSprite");

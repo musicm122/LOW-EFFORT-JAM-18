@@ -59,7 +59,7 @@ func dialog_listener(arg):
 		"end_dialog":
 			print("on_interact_complete called")
 			emit_signal("player_interacting_complete")
-			yield(get_tree().create_timer(1.0), "timeout")
+			yield(get_tree().create_timer(0.2), "timeout")
 			get_tree().paused = false
 			canInteract = true
 			

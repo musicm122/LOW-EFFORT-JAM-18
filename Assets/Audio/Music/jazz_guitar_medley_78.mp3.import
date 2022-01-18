@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/jazz_guitar_medley_78.mp3-c4410ff87085372622f4793375fbf9db.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/Music/jazz_guitar_medley_78.mp3"
+dest_files=[ "res://.import/jazz_guitar_medley_78.mp3-c4410ff87085372622f4793375fbf9db.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

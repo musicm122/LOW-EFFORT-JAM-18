@@ -1,0 +1,68 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Assets/Audio/SoundEffects/Ambience_Hell_01.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thats better. "
+		},
+		{
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "My owl was just so hungry."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/Audio/SoundEffects/barn_owl_01.ogg",
+			"volume": 0
+		},
+		{
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "... yes"
+		},
+		{
+			"character": "character-1642272386.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "... right away my master."
+		},
+		{
+			"change_scene": "res://Scenes/End.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.3",
+		"file": "timeline-1642450212.json",
+		"name": "Samael_Ending"
+	}
+}

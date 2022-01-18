@@ -1,6 +1,296 @@
 {
 	"events": [
+		{
+			"emit_signal": "start_dialog",
+			"event_id": "dialogic_040"
+		},
+		{
+			"condition": "",
+			"definition": "1642355581-918",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, Darling!"
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I just love the vibe of this place. "
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Although, your bed could use a little work. "
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "I could help you with some work in the bed room."
+		},
+		{
+			"choice": "I'm not sure what you mean. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You"
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Are"
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "ADORABLE~"
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don't you dare change a thing about yourself. You are just too cute."
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " If you were a vegetable, you’d be a ‘cute-cumber.'"
+		},
+		{
+			"choice": "Miss Oda are you trying to seduce me?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why, Whatever do you mean?"
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "whispers* (Is is working?)"
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " So, aside from taking my breath away, what do you do for a living?"
+		},
+		{
+			"choice": "I could stand some help. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Of that I have no doubt. "
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I have a bit of a thing...."
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It helps me if I have something to eat before we do any heavy lifting."
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Do you think you could help me out with that?"
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Maybe something.... "
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cheezy for sheezy ? "
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thats what you young people say right?"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1642355581-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"condition": "",
+			"definition": "1642273213-364",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1640989017.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Give the last slice?"
+		},
+		{
+			"choice": "Yep",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "stop",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Awwww, you do like me. "
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 0.1,
+			"file": "res://Assets/Audio/Music/1-Dark Fantasy Studio- Basement.mp3",
+			"volume": 0
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There is something that has been burning inside me. "
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You might say its bubbling up. "
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/Audio/SoundEffects/Ambience_MonstersBelly_00.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A yearning, I wish to share with you. "
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Like so much melted cheeze."
+		},
+		{
+			"definition": "1642273213-364",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1642355567-146",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/Audio/SoundEffects/Monster_04.wav",
+			"volume": 0
+		},
+		{
+			"change_scene": "res://Entities/OdaEnding.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"choice": "Nope",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1642354839.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Don’t leave me provolone."
+		},
+		{
+			"emit_signal": "end_dialog",
+			"event_id": "dialogic_040"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.3",

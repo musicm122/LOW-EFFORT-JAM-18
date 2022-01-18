@@ -52,12 +52,15 @@ _global_script_class_icons={
 
 config/name="Low Effort Jam 18"
 config/description="Last Slice"
-run/main_scene="res://Scenes/Main.tscn"
+run/main_scene="res://Scenes/Title.tscn"
 config/icon="res://icon.png"
 
 [display]
 
+window/per_pixel_transparency/allowed=true
+window/per_pixel_transparency/enabled=true
 window/stretch/mode="2d"
+window/stretch/aspect="keep"
 
 [editor_plugins]
 
@@ -67,6 +70,8 @@ enabled=PoolStringArray( "res://addons/dialogic/plugin.cfg" )
 
 plugin=true
 view=false
+Display=false
+scene=false
 
 [input]
 
@@ -135,4 +140,5 @@ quality/driver/driver_name="GLES2"
 2d/snapping/use_gpu_pixel_snap=true
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
+environment/default_clear_color=Color( 0, 0, 0, 1 )
 environment/default_environment="res://default_env.tres"
