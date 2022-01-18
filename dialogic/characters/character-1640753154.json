@@ -1,7 +1,7 @@
 {
 	"color": "#ffff4e00",
 	"description": "Player\t",
-	"display_name": "You",
+	"display_name": "Protag",
 	"display_name_bool": true,
 	"id": "character-1640753154.json",
 	"mirror_portraits": false,

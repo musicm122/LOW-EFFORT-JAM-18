@@ -60,3 +60,4 @@ stream = ExtResource( 4 )
 autoplay = true
 
 [node name="Dialog" parent="." instance=ExtResource( 3 )]
+timeline = "timeline-1642464451.json"
